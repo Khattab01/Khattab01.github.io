@@ -1,54 +1,106 @@
-*{
- background-color: #2C1F18;
- margin: 0px;
- padding: 0px;
- font-family: AR;
-}
-@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
-nav{
-      background: #281E12؛
-      width: 20px;
-      height: auto;
-      text-align: center;
-}
-nav ul li{
-     display: inline-block;
-     padding: 0px 7%;
-     margin-top: 5px; 
-     margin-right: 5px;
-     margin-left: 5px; 
-     background-color:#B28650, 0.5;
-     border: 2px solid #60482B;
-     border-radius: 20px; 
-     color: #ffffff; 
-     list-style: none;
-}
-nav ul li a{
-         color: #ffffff;
-         background-color: transparent; 
-         font-style: none;
-         font-family: Cairo; 
-        text-shadow: 3px 3px 3px #000000;
-        text-decoration: none; 
-        padding: 0px 10px; 
-} 
-.home{
- background: #60482B;
- border: 2px solid #8E6B40;
-} 
-.informations .admins :hover{
-  background: #60482B; 
-  border: 2px solid #8E6B40;
-  transform: scale(1,1);
-} 
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
 
-.header1{
-         margin-top: 5px; 
-         color:#ffffff;
-         text-align: center;
-         font-family: 'Cairo', sans-serif;
-         text-shadow: 3px 3px black;
-         width: auto; 
-         height: 40px;
-         
+*{
+   
+    color: white;
+    text-align: center;
+    font-family: cairo;
+    margin: 0;
+
+}
+body{
+     background-color: #2C3333;
+    background-image: url("https://i.imgur.com/x7WTkrN.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-shadow: 
+    0px 5px 4px black,
+    1.5px 0px black,
+    0px 1.5px black,
+    -1.5px 0px black,
+    0px -1.5px black;
+}
+.logo{
+    display:block;
+}
+.logo2{
+    display: none;
+}
+.det{
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+
+}
+.wh1,.wh2{
+    margin:0px 10%;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 0 black;
+    margin-top: 20px;
+}
+.info{
+    margin-top:20px ;
+    height: auto;
+    width: 250px;
+    background-color: #2C3333;
+    border: solid 2px #000;
+    border-radius: 10px;
+    box-shadow: 0px 7px #000;
+    text-align: center;
+    direction: rtl;
+    
+    margin-bottom: 40px; 
+ 
+}
+ul{
+    margin-top: 30px;
+    margin-left: 35px;
+    margin-bottom:15px;
+    
+   
+}
+li{
+    list-style: none;
+}
+a{
+text-decoration: none;
+padding: 5px 50px;
+background-color: #0E8388;
+border: solid #000 2px;
+border-radius: 20px;
+box-shadow: 0px 4px #000;
+
+}
+.apph1:hover, h3:hover{
+    color: #0E8388;
+}
+img:hover{
+          
+}
+a:hover{
+box-shadow: 0px 0px 10px #0E8388;
+margin-top: 4px;
+}
+@media(min-width:800px){
+                       body{
+                        background-image: url("https://i.imgur.com/ls75CKc.jpg");
+
+                       }
+                       .logo2{
+                        display: flex;
+                        justify-content: space-between;
+                        margin: 10px 30px;
+                       }
+                       .logo2 .gg{
+                        margin-top: 15px;
+                       }
+                       .logo{
+                        display: none;
+                       }
+
 }
